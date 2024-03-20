@@ -18,7 +18,6 @@ Bij deze leertaak hoort de deeltaak:
 ## Doel van deze opdracht
 
 Tim Berners-Lee, de uitvinder van het internet zei: "_The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect._"
-
 Het doel van deze opdracht is te leren hoe je een interactieve website kan ontwerpen en maken die voor iedereen toegankelijk is.
 
 
@@ -26,12 +25,10 @@ Het doel van deze opdracht is te leren hoe je een interactieve website kan ontwe
 
 Ontwerp en maak een functionaliteit voor je opdrachtgever op basis van een _user story_. De _user stories_ waar je aan gaat werken gaan over User Generatied Content. Hiervoor moet je data opslaan met een formulier en POST.
 
-
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 
 ### Analyseren
-
 In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren. Je kiest een _user story_ waar je aan gaat werken en onderzoekt hoe het posten van data werkt met de REST-API.
 
 #### Sprintplanning
@@ -48,14 +45,11 @@ De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).
 Bespreek met je projectcoach per _user story_ hoe je data kan posten en of er (al) een POST endpoint is en hoe deze werkt.
 
 ### Bronnen analyseerfase
-
 * [Wat is een REST API nou echt: het basisidee](https://blog.wearefrank.nl/wat-is-een-rest-api-nou-echt-het-basisidee)
 
 
 ### Ontwerpen
-
 In de ontwerpfase bedenk en schets je eerst wat je gaat maken. 
-
 Eerst ontwerp en bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. 
 
 #### Wireflow
@@ -65,21 +59,15 @@ Teken de _core-functionalty_ van de _user story_ in een wireflow. Zorg dat je de
 Maak een breakdown-schets en beschrijf de juiste HTML formulier-elementen die je nodig hebt. Schets daarna een UML diagram met de routing en pseudo-code voor de data-flow en control-flow van de node-code. 
 
 ### Bronnen ontwerpfase
-
 * [Wireframing User Flow with Wireflows](https://balsamiq.com/learn/articles/wireflows/)
 * [What is a UML diagram?](https://miro.com/diagramming/what-is-a-uml-diagram/)
 * [The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 * [The Form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 
-
-### Bouwen
-
 #### Inrichten ontwikkelomgeving
-
 Je gaat een server-side website bouwen met Node/Express/EJS gebaseerd op een REST API met JSON. Installeer de Node ontwikkelomgeving en installeer de packages die je nodig hebt. Maak de files en folders aan die je nodig hebt op de Node server. Gebruik hiervoor `npm install`, en kopieer uit je project uit de vorige sprint de code die je mee wilt nemen.
 
 #### Progressive enhancement
-
 1. Eerst bouw je de _core functionality_ van je website in HTML en met behulp van formulieren en NodeJS, voor het server-side afhandelen van het posten van data. (Content layer)
 2. Daarna voeg je CSS toe voor feedback voor de gebruiker en om de huisstijl toe te passen. (Presentation layer)
 3. Zo nodig voeg je CSS en client-side JS toe om de User Experience te verbeteren. (Client-side scripting)
@@ -90,11 +78,11 @@ In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.
 
 Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
 
+
 ### Testen
-
 Om er voor te zorgen dat de functionaliteit voor iedereen toegankelijk is, test je je werk in verschillende browsers en devices.
-
 Gebruik [caniuse.com](https://caniuse.com) om te achterhalen welke technieken browsers ondersteunen. 
+
 
 ## Criteria
 *Definitions of done*
