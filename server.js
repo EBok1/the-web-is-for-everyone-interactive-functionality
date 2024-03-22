@@ -59,6 +59,26 @@ app.get('/faq', function (request, response) {
 })
 
 
+
+app.get('/project-insturen', function (request, response) {
+    fetchJson('https://fdnd-agency.directus.app/items/dh_services').then((servicesDataUitDeAPI) => {
+        response.render('project-insturen', { services: servicesDataUitDeAPI.data })
+    });
+})
+
+app.get('/vraag', function (request, response) {
+    fetchJson('https://fdnd-agency.directus.app/items/dh_services').then((servicesDataUitDeAPI) => {
+        response.render('vraag', { services: servicesDataUitDeAPI.data })
+    });
+})
+
+app.get('/aanbod', function (request, response) {
+    fetchJson('https://fdnd-agency.directus.app/items/dh_services').then((servicesDataUitDeAPI) => {
+        response.render('aanbod', { services: servicesDataUitDeAPI.data })
+    });
+})
+
+
 // Stel het poortnummer in waar express op moet gaan luisteren
 app.set('port', process.env.PORT || 8000)
 

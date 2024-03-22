@@ -10,11 +10,10 @@
 nav {
     background-color: rgb(228, 242, 238);
     position: fixed;
-    /* Set the navbar to fixed position */
     top: 0;
-    /* Position the navbar at the top of the page */
     width: 100%;
-    /* Full width */
+    border-bottom: solid rgb(51, 51, 51) .1em;
+    border-top: solid rgb(51, 51, 51) .1em;
 }
 
 ul {
@@ -38,8 +37,11 @@ li a {
 
 /* home pagina */
 .homeImg {
+    display: flex;
     width: 100%;
     padding-bottom: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
 .homeBtnScroll {
@@ -49,10 +51,12 @@ li a {
 }
 
 .homeH {
-    margin-left: 1em;
+    padding-left: 1em;
+    padding-top: 3em;
     color: rgb(51, 51, 51);
     font-size: 2em;
     text-align: center;
+    background-color: rgb(228, 242, 238);
 }
 
 .homeh2 {
@@ -72,17 +76,19 @@ li a {
 
 .container2 {
     display: flex;
+    overflow: scroll;
     margin-top: 1em;
     margin-right: 1em;
 }
 
 .hometext {
-    margin: 1em 5em 2em 5em;
+    padding: 1em 5em 2em 5em;
     color: rgb(51, 51, 51);
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: rgb(228, 242, 238);
 }
 
 form {
@@ -168,4 +174,13 @@ p {
 
 i {
     font-size: 1.5em;
+}
+
+/* project-insturen */
+.linkvraag-aanbod {
+    margin-top: 5em;
+}
+
+.sendproject {
+    margin-top: 5em;
 }
