@@ -78,6 +78,9 @@ app.get('/aanbod', function (request, response) {
     });
 })
 
+app.post(){
+    fetchJson('https://fdnd-agency.directus.app/items/dh_services')
+}
 
 // Stel het poortnummer in waar express op moet gaan luisteren
 app.set('port', process.env.PORT || 8000)

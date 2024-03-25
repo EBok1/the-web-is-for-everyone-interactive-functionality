@@ -1,61 +1,61 @@
 <%- include('./partials/head' , {current: '/' }) %>
 
     <main>
-        <form action="" class="sendproject">
+        <form action="" method="post" class="sendproject">
             <li>
                 <label for="name">Volledige naam:</label>
-                <input type="text" placeholder="Vul naam in">
+                <input type="text" id="name" name="naam" placeholder="Vul naam in">
             </li>
             <li>
                 <label for="e-mail">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="e-mail@example.com">
+                <input type="email" id="e-mail" name="email" placeholder="e-mail@example.com">
             </li>
             <li>
                 <label for="nummer">Telefoonnummer:</label>
-                <input type="tel" placeholder="Telefoonnummer">
+                <input type="tel" id="nummer" name="nummer" placeholder="Telefoonnummer">
             </li>
             <li>
                 <label for="titel">Titel van project:</label>
-                <input type="text" placeholder="Titel">
+                <input type="text" id="titel" name="titel" placeholder="Titel">
             </li>
             <li>
                 <label for="buurt">Buurt:</label>
-                <input type="text">
+                <input type="text" id="buurt" name="buurt">
             </li>
             <li>
                 <label for="bericht">Beschrijving:</label>
-                <textarea name="bericht" id="beschrijving" cols="70" rows="6"
+                <textarea name="beschrijving" id="bericht" cols="70" rows="6"
                     placeholder="Omschrijf het project"></textarea>
             </li>
             <li>
                 <label for="catagorie">Catagorieën:</label>
-                <input type="checkbox">Kunst en Cultuur
-                <input type="checkbox">Sociale Activiteiten
-                <input type="checkbox">Sport en Recreatie
-                <input type="checkbox">Educatie
-                <input type="checkbox">Gezondheid en Welzijn
-                <input type="checkbox">Feesten en Evenementen
-                <input type="checkbox">Natuurbehoud
-                <input type="checkbox">Buurtverfraaiing
-                <input type="checkbox">Gemeenschapsontwikkeling
+                <input type="checkbox" id="catagorie" name="catagorie">Kunst en Cultuur
+                <input type="checkbox" id="catagorie" name="catagorie">Sociale Activiteiten
+                <input type="checkbox" id="catagorie" name="catagorie">Sport en Recreatie
+                <input type="checkbox" id="catagorie" name="catagorie">Educatie
+                <input type="checkbox" id="catagorie" name="catagorie">Gezondheid en Welzijn
+                <input type="checkbox" id="catagorie" name="catagorie">Feesten en Evenementen
+                <input type="checkbox" id="catagorie" name="catagorie">Natuurbehoud
+                <input type="checkbox" id="catagorie" name="catagorie">Buurtverfraaiing
+                <input type="checkbox" id="catagorie" name="catagorie">Gemeenschapsontwikkeling
             </li>
             <li>
                 <label for="document">Upload foto:</label>
-                <input type="file" placeholder="Voeg document toe">
+                <input type="file" id="document" name="document" placeholder="Voeg document toe">
             </li>
             <li>
                 <label for="locatie">Locatie:</label>
-                <input type="text" placeholder="Vul locatie in">
+                <input type="text" id="locatie" name="locatie" placeholder="Vul locatie in">
             </li>
             <li>
                 <label for="tijd">Tijd:</label>
-                <input type="time" placeholder="Vul tijd in">
+                <input type="time" id="tijd" name="tijd" placeholder="Vul tijd in">
             </li>
             <li>
                 <label for="date">Datum:</label>
-                <input type="date" placeholder="Vul datum in">
+                <input type="date" id="date" name="datum" placeholder="Vul datum in">
             </li>
-            <input type="submit" value="Verzenden">
+            <input type="submit" name="verstuur" id="verzend" value="Verzenden">
         </form>
     </main>
 
