@@ -16,7 +16,8 @@
             <article class="card">
                 <a class="linkVA" href="/vraag-aanbod/<%= project.id %>">
                     <% if (project.image) { %>
-                        <img class="imgVA" src="https://fdnd-agency.directus.app/assets/<%= project.image %>">
+                        <img class="imgVA" alt="afbeelding van project"
+                            src="https://fdnd-agency.directus.app/assets/<%= project.image %>">
                         <% } %>
                             <div class="description">
                                 <h3>
@@ -30,8 +31,8 @@
 
                                 <p><%- project.long_description %></p>
                             </div>
-                            <button class="btn">Meer informatie</button>
                 </a>
+                <button class="btn">Meer informatie</button>
             </article>
             <% }) %>
 
@@ -43,7 +44,7 @@
                             <article class="card">
                                 <a class="linkVA" href="/vraag-aanbod/<%= service.id %>">
                                     <% if (service.image) { %>
-                                        <img class="imgVA"
+                                        <img class="imgVA" alt="afbeelding van project"
                                             src="https://fdnd-agency.directus.app/assets/<%= service.image %>">
                                         <% } %>
 
@@ -59,9 +60,8 @@
 
                                                 <p><%- service.short_description %></p>
                                             </div>
-
-                                            <button class="btn">Meer informatie</button>
                                 </a>
+                                <button class="btn">Meer informatie</button>
                             </article>
 
                             <% } %>
@@ -74,7 +74,7 @@
                                             <article class="card">
                                                 <a class="linkVA" href="/vraag-aanbod/<%= service.id %>">
                                                     <% if (service.image) { %>
-                                                        <img class="imgVA"
+                                                        <img class="imgVA" alt="afbeelding van project"
                                                             src="https://fdnd-agency.directus.app/assets/<%= service.image %>">
                                                         <% } %>
 
@@ -91,8 +91,8 @@
 
                                                                 <p><%- service.short_description %></p>
                                                             </div>
-                                                            <button class="btn">Meer informatie</button>
-                                                </a>
+                                                </a> <br>
+                                                <button class="btn">Meer informatie</button>
                                             </article>
 
                                             <% } %>

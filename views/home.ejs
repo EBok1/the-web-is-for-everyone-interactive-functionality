@@ -9,7 +9,7 @@
                 buren te verenigen, of gewoon op zoek bent naar manieren om actief deel te nemen aan je gemeenschap,
                 BuurtConnect is er om je te helpen.</article>
             <button class="homeBtnScroll">Bekijk buurtprojecten</button>
-            <img class="homeImg" src="/Hallen voorpagina.png" alt="">
+            <img class="homeImg" src="/Hallen-voorpagina.png" alt="home afbeelding">
         </section>
 
         <section class="container2">
@@ -22,8 +22,8 @@
                         <article class="card">
                             <a class="linkVA" href="/vraag-aanbod/<%= service.id %>">
                                 <% if (service.image) { %>
-                                    <img class="imgVA"
-                                        src="https://fdnd-agency.directus.app/assets/<%= service.image %>">
+                                    <img class="imgVA" alt="afbeelding van project"
+                                        src="https://fdnd-agency.directus.app/assets/ <%= service.image %>">
                                     <% } %>
 
                                         <div class="description">
@@ -38,9 +38,8 @@
 
                                             <p><%- service.short_description %></p>
                                         </div>
-
-                                        <button class="btn">Meer informatie</button>
                             </a>
+                            <button class="btn">Meer informatie</button>
                         </article>
 
                         <% } %>

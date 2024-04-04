@@ -92,6 +92,7 @@ li a {
     text-align: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 .cardContainer {
@@ -140,7 +141,7 @@ form {
 .card {
     border: solid peachpuff;
     border-radius: 50px;
-    border-width: .7em;
+    border-width: .5em;
 }
 
 .linkVA {
